@@ -8,4 +8,5 @@ echo Thinstation Test!
 kernel http://static.centzilius.de/thinstation/vmlinuz
 initrd http://static.centzilius.de/thinstation/initrd
 imgargs vmlinuz splash=silent,theme:default load_ramdisk=1 ramdisk_blocksize=4096 root=/dev/ram0 ramdisk_size=786432 console=tty1 vt.global_cursor_default=0 quiet loglevel=3 LM=3
+imgstat
 boot
